@@ -5,9 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CadastroDomain.Entities;
-public class Cadastro
+public enum EEstadoCivil
 {
-    public string Nome { get; set; }
-    public string Email { get; set; }
-    public string Cpf { get; set; }
+    Solteiro = 0,
+    Casado = 1,
+    Divorciado = 2, 
+    Viúvo = 3
 }
