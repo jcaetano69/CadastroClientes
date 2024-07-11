@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Infra.Data", "Cada
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.IoC", "Cadastro.IoC\Cadastro.IoC.csproj", "{2513E492-30A0-41D2-BC0A-67DD5A838061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro.Services", "Cadastro.Services\Cadastro.Services.csproj", "{2C3DB971-85B0-4A42-8441-7161FF5EDAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2513E492-30A0-41D2-BC0A-67DD5A838061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2513E492-30A0-41D2-BC0A-67DD5A838061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2513E492-30A0-41D2-BC0A-67DD5A838061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3DB971-85B0-4A42-8441-7161FF5EDAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3DB971-85B0-4A42-8441-7161FF5EDAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3DB971-85B0-4A42-8441-7161FF5EDAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3DB971-85B0-4A42-8441-7161FF5EDAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
