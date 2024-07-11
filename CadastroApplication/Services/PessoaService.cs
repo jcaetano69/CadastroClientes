@@ -17,6 +17,9 @@ class PessoaService : IPessoaService
     }
     public PessoaViewModel GetPessoas()
     {
-        throw new NotImplementedException();
+        return new PessoaViewModel()
+        {
+            Pessoas = _pessoaRepository.GetPessoas()
+        };
     }
 }
