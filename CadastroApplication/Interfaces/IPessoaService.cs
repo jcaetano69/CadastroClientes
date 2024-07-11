@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Cadastro.Application.Interfaces;
-public interface IPessoasService
+public interface IPessoaService
 {
     PessoaViewModel GetPessoas();
 }
