@@ -1,4 +1,4 @@
-﻿using Cadastro.Domain.Interfaces;
+﻿using Cadastro.Domain.Interfaces.Repository;
 using Cadastro.Infra.Data.Context;
 using CadastroDomain.Entities;
 

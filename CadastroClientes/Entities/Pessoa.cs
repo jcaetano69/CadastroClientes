@@ -13,7 +13,8 @@ public class Pessoa : AuditableEntity
     public string Rg { get; set; }
     public EGenero Genero { get; set; }
     public string Celular { get; set; }
-    public string Observações { get; set; }
+    public string Observacoes { get; set; }
     public Endereco Endereco { get; set; }
+    public EEstadoCivil EstadoCivil { get; set; }
 
 }

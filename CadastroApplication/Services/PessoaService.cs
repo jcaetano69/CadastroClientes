@@ -1,6 +1,6 @@
 ﻿using Cadastro.Application.Interfaces;
 using Cadastro.Application.ViewModels;
-using Cadastro.Domain.Interfaces;
+using Cadastro.Domain.Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cadastro.Infra.Data\Cadastro.Infra.Data.csproj" />
+    <ProjectReference Include="..\CadastroApplication\Cadastro.Application.csproj" />
+    <ProjectReference Include="..\CadastroClientes\Cadastro.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
