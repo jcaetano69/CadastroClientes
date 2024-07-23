@@ -32,4 +32,8 @@
     <ProjectReference Include="..\CadastroClientes\Cadastro.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Commands\" />
+  </ItemGroup>
+
 </Project>
