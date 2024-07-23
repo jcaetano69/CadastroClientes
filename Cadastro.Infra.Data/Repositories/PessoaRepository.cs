@@ -3,16 +3,9 @@ using Cadastro.Infra.Data.Context;
 using CadastroDomain.Entities;
 
 namespace Cadastro.Infra.Data.Repositories;
-public class PessoaRepository : IPessoaRepository
+public class PessoaRepository : BaseRepository<Pessoa>, IPessoaRepository
 {
-    public AppDbContext  _context;
-    public PessoaRepository(AppDbContext context)
+    public PessoaRepository(AppDbContext context) : base(context)
     {
-        _context = context;
-    }
-
-    public IEnumerable<Pessoa> GetPessoas()
-    {
-        return _context.Pessoas;
     }
 }

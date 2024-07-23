@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Cadastro.Domain.Interfaces.Repository;
-public interface IPessoaRepository : IRepository<Pessoa>
+public interface IEnderecoRepository : IRepository<Endereco>
 {
-   
 }
